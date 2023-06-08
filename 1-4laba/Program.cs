@@ -7,21 +7,21 @@ namespace ConsoleApp1
         public static void Main(string[] args)
         {
             {
-                int setchik = 0;
-                string s_stroka = "pv";
-                string j_stroka = "ppvvssh";
+                int counter = 0;
+                string S_string = "pv";
+                string J_string = "ppvvssh";
                 
-                foreach (char y in s_stroka) { 
-                    foreach (char g in j_stroka)
+                foreach (char y in S_string) { 
+                    foreach (char g in J_string)
                     {
                         if (y == g) {
-                        setchik++;
+                        counter++;
                         }
 
                     }
                 }
 
-                Console.WriteLine(setchik);
+                Console.WriteLine(counter);
             }
         }
     }

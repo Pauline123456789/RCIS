@@ -2,19 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using _2._2;
 namespace ConsoleApp1
 {
-    class Train
-    {
-        public string pynkt, vremia;
-        public int nomer;
-
-        public void writeInConsoleInfo(string pynkt, string vremia, int nomer)
-        {
-            Console.WriteLine("Номер поезда: {0}\nВремя: {1}\nПункт: {2}", nomer, vremia, pynkt);
-        }
-    }
+   
 
     public class Program
     {
@@ -36,8 +27,8 @@ namespace ConsoleApp1
             poezd3.nomer = 3;
             poezd3.vremia = "21:00";
 
-            bool rabota = true;
-            while (rabota)
+
+            while (true)
             {
 
                 Console.WriteLine("Введите номер поезда от 1 до 3");

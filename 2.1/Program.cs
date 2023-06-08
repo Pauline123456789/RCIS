@@ -5,27 +5,11 @@ using System.Globalization;
 using System.Linq;
 using System.Net;
 using System.Text;
+using Student_;
 
 namespace ConsoleApp1
 {
-    class Student
-    {
-        public string familia, data;
-        public int nomer;
-        public int[] yspevaimost;
-
-        public void writeInConsoleInfo(string familia, string data, int nomer, int[] yspevaimost)
-        {
-            Console.WriteLine("Фамилия: {0}\nДень рождение: {1}\nГруппа: {2}\n", familia, data, nomer);
-            Console.WriteLine("Успеваемость:");
-            foreach (int i in yspevaimost)
-            {
-                Console.Write(i + " ");
-            }
-        }
-
-
-    }
+    
     public class Program
     {
 
@@ -35,7 +19,7 @@ namespace ConsoleApp1
             poulina.familia = "Novoseltseva";
             poulina.data = "12.10.2003";
             poulina.nomer = 621;
-            poulina.yspevaimost = new[] { 4, 3, 5, 4, 3 };
+            poulina.progress = new[] { 4, 3, 5, 4, 3 };
 
             
             bool rabota = true;
@@ -48,7 +32,7 @@ namespace ConsoleApp1
                 {
                     case "1":
                         poulina.writeInConsoleInfo(poulina.familia, poulina.data, poulina.nomer,
-                            poulina.yspevaimost);
+                            poulina.progress);
                         
                         break;
                     case "2":
@@ -74,7 +58,7 @@ namespace ConsoleApp1
                                     break;
                                 case "0":
                                     poulina.writeInConsoleInfo(poulina.familia, poulina.data, poulina.nomer,
-                                        poulina.yspevaimost);
+                                        poulina.progress);
                                     
                                     break;
                             }
