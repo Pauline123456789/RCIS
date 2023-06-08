@@ -8,7 +8,6 @@ namespace _4
 {   
     internal class Program
     {
-        
         static void Main(string[] args)
         {
             string rim = "XXIV";

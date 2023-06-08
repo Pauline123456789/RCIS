@@ -57,6 +57,7 @@ namespace ConsoleApp10
             unique_combination(0, 0, K, local, A);
         }
 
+
         static void Main(String[] args)
         {
             int[] arr = { 10, 1, 2, 7, 6, 1, 5 };

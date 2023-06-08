@@ -9,7 +9,8 @@ using _3._3;
 namespace _3._3
 {  
     internal class Program
-    {
+    { 
+
         static void Main(string[] args)
         {
             Calculation calculation = new Calculation();

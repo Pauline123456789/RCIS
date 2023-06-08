@@ -10,6 +10,7 @@ using Student_;
 namespace ConsoleApp1
 {
     
+
     public class Program
     {
 

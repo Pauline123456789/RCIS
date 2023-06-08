@@ -6,10 +6,8 @@ using System.Text;
 using _3._2;
 namespace ConsoleApp1
 {
-    
     public class Program
     {
-
         public static void Main(string[] args)
         {
             Worker Paulina = new Worker();

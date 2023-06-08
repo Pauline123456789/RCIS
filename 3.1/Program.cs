@@ -6,7 +6,6 @@ using System.Text;
 using _3._1;
 namespace ConsoleApp1
 {
-    
     public class Program
     {
 
